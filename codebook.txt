@@ -1,4 +1,4 @@
-#Codebook for Summarizing Data on Human Activity Recognition on Smartphones
+##Codebook for Summarizing Data on Human Activity Recognition on Smartphones
 
 The variables in the table produced by the script are:
  [1] "activity"     - activity performed (walking, upstairs, sitting ...)                       
