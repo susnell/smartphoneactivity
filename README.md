@@ -1,4 +1,4 @@
-## Summarizing Data on Human Activity Recognition on Smartphones
+### Summarizing Data on Human Activity Recognition on Smartphones
 
 This script summarizes average data from a larger data set of human activity recognition on smartphones. The data set comes from an experiment of 30 people, who each performed 6 activities wearing a smartphone on their waist. Test subjects' movement was measured using the smartphones' accelerometer and gyroscope. This script produces a table of averages (by activity and by test subject) of the means and standard deviations of the variables measured in the experiment.
 
