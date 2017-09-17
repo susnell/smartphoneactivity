@@ -1,5 +1,4 @@
-
-Codebook for Summarizing Data on Human Activity Recognition on Smartphones
+#Codebook for Summarizing Data on Human Activity Recognition on Smartphones
 
 The variables in the table produced by the script are:
  [1] "activity"     - activity performed (walking, upstairs, sitting ...)                       
@@ -9,8 +8,7 @@ The variables in the table produced by the script are:
 
 In tidying the data, only minor changes have been made to the labelling to retain as much information as possible from the original data and experiment setup.
 
-Change1:
-
+###Change1
 Activity labels [1] have been made more concise and readable. 
 
   activityid  activity	previously	
@@ -21,21 +19,20 @@ Activity labels [1] have been made more concise and readable.
           5   standing	STANDING
           6     laying	LAYING
 
-Change2:
-
+###Change2
 Feature or variable names [3]-[88] have been cleaned of non alphanumerical characters.  
 
      Variable name	   Previously		
- [3] tBodyAccMeanX         tBodyAcc-mean()-X           
+ [3] tBodyAccMeanX     tBodyAcc-mean()-X           
      ...        
- [8] tBodyAccStdZ          tBodyAcc-std()-Z              
+ [8] tBodyAccStdZ      tBodyAcc-std()-Z              
      ...             
-[10] tGravityAccMeanY	   tGravityAcc-mean()-Y
+[10] tGravityAccMeanY	 tGravityAcc-mean()-Y
      ...
 
 To understand what the variables are estimating, please refer to the original feature explanation below.                           
 
-Explanation of the features in the original data set:
+##Explanation of the features in the original data set:
 
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
@@ -106,5 +103,3 @@ tBodyAccMean
 tBodyAccJerkMean
 tBodyGyroMean
 tBodyGyroJerkMean
-
-The complete list of variables of each feature vector is available in 'features.txt'
