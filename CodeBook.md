@@ -1,6 +1,7 @@
-##Codebook for Summarizing Data on Human Activity Recognition on Smartphones
+### Codebook for Summarizing Data on Human Activity Recognition on Smartphones
 
-The variables in the table produced by the script are:
+The variables in the table produced by the script are
+
 [1] "activity"     - activity performed (walking, upstairs, sitting ...)                       
 [2] "subject"      - number of the test subject (1-30)                       
 [3] - [88]	    - averages of signal data feature estimates
@@ -8,7 +9,7 @@ The variables in the table produced by the script are:
 
 In tidying the data, only minor changes have been made to the labelling to retain as much information as possible from the original data and experiment setup.
 
-###Change1
+### Change1
 Activity labels [1] have been made more concise and readable. 
 
   activityid  activity	previously	
@@ -19,7 +20,7 @@ Activity labels [1] have been made more concise and readable.
           5   standing	STANDING
           6     laying	LAYING
 
-###Change2
+### Change2
 Feature or variable names [3]-[88] have been cleaned of non alphanumerical characters.  
 
      Variable name	   Previously		
@@ -32,7 +33,7 @@ Feature or variable names [3]-[88] have been cleaned of non alphanumerical chara
 
 To understand what the variables are estimating, please refer to the original feature explanation below.                           
 
-###Explanation of the features in the original data set:
+### Explanation of the features in the original data set:
 
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
@@ -44,7 +45,7 @@ Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
 
-###Feature Selection 
+### Feature Selection 
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
