@@ -1,8 +1,3 @@
----
-output: 
-  html_document: 
-    keep_md: yes
----
 ### Codebook for Summarizing Data on Human Activity Recognition on Smartphones
 
 The variables in the table produced by the script are
@@ -102,7 +97,7 @@ The set of variables that were estimated from these signals are **and are omitte
         bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
         angle(): Angle between to vectors.
 
-Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
+**These additional vectors are also included in this final output**: Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
     gravityMean
     tBodyAccMean
