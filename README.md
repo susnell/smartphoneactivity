@@ -38,6 +38,8 @@ The source of the original data set and experiment is:
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
 DITEN - Universit‡ degli Studi di Genova.
